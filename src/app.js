@@ -2,6 +2,7 @@ import Taro, {Component} from '@tarojs/taro'
 import Index from './pages/index'
 import 'taro-ui/dist/style/index.scss'
 import './static/css/iconfont.css'
+import './static/css/common.wxss'
 
 import './app.scss'
 

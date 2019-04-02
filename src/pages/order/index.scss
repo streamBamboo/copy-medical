@@ -1,0 +1,39 @@
+
+.order {
+  padding: 0 40px 0 49px;
+
+  .order_header {
+    .order_header-menu {
+      margin-top: 35px;
+
+      .menu_list {
+        .menu_image {
+          width: 49px;
+          height: 39px;
+          margin: 0 auto 22px;
+          position: relative;
+
+          .menu_badge {
+            padding: 6px 10px;
+            background: #ff6262;
+            position: absolute;
+            top: -6px;
+            right: -10px;
+            border-radius: 15px;
+            color: #fff;
+            border: 1px solid #ff4b4b;
+            font-size: 16px;
+            font-weight: bold;
+          }
+        }
+
+        .fc-0e0e0e {
+          color: #0e0e0e;
+        }
+
+      }
+
+
+    }
+  }
+}

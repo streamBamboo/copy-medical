@@ -117,7 +117,7 @@ export default class Index extends Component {
     return (
       <View className="index">
         <View className="index_header">
-          <Image className="image" src={require("../../static/image/index_header.png")}/>
+          <Image className="image-100" src={require("../../static/image/index_header.png")}/>
         </View>
         <View className="index-content at-row">
           <View className="index_content-left fs-26">
@@ -140,7 +140,7 @@ export default class Index extends Component {
               shopList.map((item, index) => {
                 return (
                   <View className='right_shop at-row' key={index}>
-                    <View className='right_shop-image'><Image className='image' src={item.image}/></View>
+                    <View className='right_shop-image'><Image className='image-100' src={item.image}/></View>
                     <View className='right_shop-content'>
                       <View className='fs-28 fc-3 fw-bold text-overflow'>{item.shopName}</View>
                       <View className='fc-96 fs-18 shop_detail textline-overflow2'>{item.shopDetail}</View>
