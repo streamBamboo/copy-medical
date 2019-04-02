@@ -1,0 +1,82 @@
+.pad-l-20 {
+  padding-left: 20px;
+}
+
+.pad-r-20 {
+  padding-right: 20px;
+}
+
+.pad-lr-20 {
+  padding: 0 20px;
+}
+
+.mar-l-20 {
+  margin-left: 20px;
+}
+
+.mar-r-20 {
+  margin-right: 20px;
+}
+
+.mar-lr-20 {
+  margin: 0 20px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-26 {
+  font-size: 26px;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fc-3 {
+  color: #333;
+}
+
+.fc-96 {
+  color: #969696;
+}
+
+/*单行省略*/
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*多行省略*/
+.textline-overflow2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 80px;
+  line-height: 40px;
+}
