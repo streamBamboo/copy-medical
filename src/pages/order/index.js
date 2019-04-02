@@ -29,6 +29,36 @@ export default class Index extends Component {
           text: '全部订单',
           num: 0,
         },
+      ],
+      orderList: [
+        {
+          classifyName: '光修复眼部护理',
+          orderState: '待评价',
+          image: require('../../static/image/shop_image.png'),
+          icon: require('../../static/image/order_icon.png'),
+          orderName: '订单名称',
+          allPrice: '总价：￥999.00',
+          setMeal: '套餐：套餐名称款式自选进口光疗',
+          state: '评价'
+        }, {
+          classifyName: '光修复眼部护理',
+          orderState: '待评价',
+          image: require('../../static/image/shop_image.png'),
+          icon: require('../../static/image/order_icon.png'),
+          orderName: '订单名称',
+          allPrice: '总价：￥999.00',
+          setMeal: '套餐：套餐名称款式自选进口光疗',
+          state: '评价'
+        }, {
+          classifyName: '光修复眼部护理',
+          orderState: '待评价',
+          image: require('../../static/image/shop_image.png'),
+          icon: require('../../static/image/order_icon.png'),
+          orderName: '订单名称',
+          allPrice: '总价：￥999.00',
+          setMeal: '套餐：套餐名称款式自选进口光疗',
+          state: '评价'
+        },
       ]
     }
   }
@@ -49,7 +79,7 @@ export default class Index extends Component {
   }
 
   render() {
-    const {orderMenu} = this.state;
+    const {orderMenu, orderList} = this.state;
     return (
       <View className="order">
         <View className='order_header'>
@@ -72,6 +102,35 @@ export default class Index extends Component {
               })
             }
           </View>
+        </View>
+        <View className='recent_order'>
+          <View className='fs-28 fw-bold '>最近订单</View>
+          {
+            orderList.map((item, index) => {
+              return (
+                <View key={index} className='order_list-content'>
+                  <View className='list_content-head at-row at-row__justify--between'>
+                    <View>
+                      <View><Image src={item.icon}/></View>
+                      <Text>{item.classifyName}</Text>
+                    </View>
+                    <View>{item.orderState}</View>
+                  </View>
+                  <View className='list_content-content'>
+                    <View className='at-row'>
+                      <View><Image src={item.image}/></View>
+                      <View>
+                        <View>{item.orderName}</View>
+                        <View>{item.setMeal}</View>
+                        <View>{item.allPrice}</View>
+                      </View>
+                    </View>
+                    <View>{item.state}</View>
+                  </View>
+                </View>
+              )
+            })
+          }
         </View>
       </View>
     )
