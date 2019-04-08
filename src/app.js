@@ -18,7 +18,11 @@ class App extends Component {
     pages: [
       'pages/index/index',
       'pages/order/index',
-      'pages/my/index'
+      'pages/my/index',
+      'pages/my/collect/index',
+      'pages/my/evaluate/index',
+      'pages/my/evaluateUser/index',
+      'pages/my/footer/index',
     ],
     window: {
       backgroundTextStyle: 'light',

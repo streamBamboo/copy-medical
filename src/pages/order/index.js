@@ -38,7 +38,7 @@ export default class Index extends Component {
           icon: require('../../static/image/order_icon.png'),
           orderName: '订单名称',
           allPrice: '总价：￥999.00',
-          setMeal: '套餐：套餐名称款式自选进口光疗',
+          setMeal: '套餐：套餐名称款式自选进口光疗套餐名称款式自选进口光疗套餐名称款式自选进口光疗',
           state: '评价'
         }, {
           classifyName: '光修复眼部护理',
@@ -109,23 +109,23 @@ export default class Index extends Component {
             orderList.map((item, index) => {
               return (
                 <View key={index} className='order_list-content'>
-                  <View className='list_content-head at-row at-row__justify--between'>
-                    <View>
-                      <View><Image src={item.icon}/></View>
+                  <View className='list_content-head w-auto at-row at-row__justify--between at-row__align--center'>
+                    <View className='at-row at-row__align--center w-auto'>
+                      <View className='list_content-icon'><Image className='image-100' src={item.icon}/></View>
                       <Text>{item.classifyName}</Text>
                     </View>
                     <View>{item.orderState}</View>
                   </View>
                   <View className='list_content-content'>
-                    <View className='at-row'>
-                      <View><Image src={item.image}/></View>
-                      <View>
-                        <View>{item.orderName}</View>
-                        <View>{item.setMeal}</View>
-                        <View>{item.allPrice}</View>
+                    <View className='at-row list_content-detail'>
+                      <View className='list_content-image'><Image className='image-100' src={item.image}/></View>
+                      <View style='flex: 1;width: 80%'>
+                        <View style='color: #222;'>{item.orderName}</View>
+                        <View style='margin-top: 5px;color: #666;' className='text-overflow'>{item.setMeal}</View>
+                        <View style='margin-top: 5px;color: #666;'>{item.allPrice}</View>
                       </View>
                     </View>
-                    <View>{item.state}</View>
+                    <View className='list_content-evaluate'>{item.state}</View>
                   </View>
                 </View>
               )

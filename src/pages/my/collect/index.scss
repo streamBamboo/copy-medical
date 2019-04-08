@@ -1,0 +1,119 @@
+
+.collect {
+  background: #fafafc;
+  height: 100%;
+  min-height: 100%;
+
+
+  .collect_head {
+    width: 100%;
+    height: 359px;
+    position: relative;
+
+    .collect_head-content {
+      width: 100%;
+      height: 150px;
+      position: absolute;
+      top: 145px;
+      left: 48px;
+      color: #fff;
+
+
+      .collect_head-image {
+        width: 150px;
+        height: 150px;
+        margin-right: 39px;
+      }
+
+      .collect_head-id {
+        font-size: 30px;
+        margin: 28px 0 18px;
+      }
+    }
+  }
+
+  .collect_list {
+    width: 94.5%;
+    padding: 0 20px;
+    position: absolute;
+    top: 320px;
+
+    .collect_list-content {
+      height: 100%;
+      min-height: 100%;
+      padding: 0 30px;
+      background: #fff;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+
+      .collect_list-head {
+        height: 103px;
+        margin-bottom: 19px;
+
+        .collect_list-my {
+          padding-top: 45px;
+          padding-bottom: 36px;
+          width: 50%;
+          border-bottom: 5px solid #f9b550;
+        }
+
+        .collect_list-edit {
+          padding: 36px 0 47px;
+          color: #47ae38;
+          width: 50%;
+          border-bottom: 1px solid #dedede;
+          text-align: right;
+        }
+      }
+
+      .collect_list-list {
+        padding: 25px 0;
+        border-bottom: 1px solid #dedede;
+        position: relative;
+
+        .fc-969696 {
+          color: #969696;
+          margin-top: 5px;
+        }
+
+        .collect_list-price {
+          margin-top: 5px;
+
+          .all_price {
+            color: #ccc279;
+          }
+
+          .product_price {
+            color: #999999;
+            text-decoration: line-through;
+            margin-left: 10px;
+          }
+        }
+
+        .collect_list-image {
+          width: 100px;
+          height: 100px;
+          margin-right: 21px;
+        }
+      }
+
+      .collect_list-btn {
+        padding: 13px 19px 12px 21px;
+        border-radius: 40px;
+        background: #f9b550;
+        color: #fff;
+        font-size: 20px;
+        position: absolute;
+        bottom: 25px;
+        right: 0;
+      }
+    }
+    .collect_list-footer{
+      width: 100%;
+      color: #dddddd;
+      text-align: center;
+      padding: 30px 0;
+    }
+  }
+
+}

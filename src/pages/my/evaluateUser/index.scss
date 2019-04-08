@@ -1,0 +1,108 @@
+page {
+  background: #f4f4f4;
+}
+
+.at-image-picker {
+  width: 150px;
+  height: 150px;
+}
+
+.at-image-picker__flex-box, .at-image-picker__flex-item {
+  width: 100%;
+  height: 100%;
+  position: initial;
+  margin-left: 0;
+}
+
+.evaluate_user {
+  .evaluate_user-issue {
+    text-align: right;
+    color: #47ae38;
+    padding-right: 34px;
+    font-weight: bold;
+    height: 60px;
+    line-height: 60px;
+    background: #fff;
+  }
+
+  .evaluate_user-level {
+    border-top: 1px solid #dedede;
+    background: #fff;
+
+    .evaluate_user-level--item {
+      border-right: 1px solid #e6e6e6;
+      width: 143px;
+      height: 173px;
+      text-align: center;
+      padding-top: 30px;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      .evaluate_user-image {
+        width: 66px;
+        height: 66px;
+        margin: 17px auto 0;
+      }
+    }
+  }
+
+  .evaluate_user-evaluate {
+    border-top: 2px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding-left: 21px;
+    padding-bottom: 30px;
+    background: #fff;
+
+    .evaluate_user-money {
+      height: 77px;
+      border-bottom: 1px solid #eee;
+
+      .evaluate_user-input {
+        margin-left: 80px;
+      }
+    }
+
+    .evaluate_user-textarea {
+      width: 100%;
+      padding: 20px 33px 0 0;
+
+      .textarea {
+        width: 100%;
+      }
+
+      .placeholder_textarea {
+        color: #ccc;
+      }
+    }
+
+    .issue {
+      text-align: right;
+      color: #c8c8c8;
+      padding-right: 33px;
+    }
+  }
+
+  .evaluate_user-uploading {
+    padding: 25px 17px;
+    border-bottom: 2px solid #ececec;
+    border-top: 2px solid #ececec;
+    background: #fff;
+    margin-top: 20px;
+
+    .uploading {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .anonymous_evaluation {
+    margin-top: 20px;
+    color: #7a7a7a;
+    padding: 20px;
+    background: #fff;
+    border-bottom: 2px solid #ececec;
+    border-top: 2px solid #ececec;
+  }
+}
