@@ -1,0 +1,79 @@
+page {
+  background: #f4f4f4;
+}
+
+.pay {
+
+  .fc-848484 {
+    color: #848484;
+  }
+
+  .pay_content {
+    background: #fff;
+  }
+
+  .pay_num {
+    padding: 12px 20px 12px 0;
+    border-top: 2px solid #f1f1f1;
+    margin-top: 15px;
+
+    .fc-f99108 {
+      color: #f99108;
+    }
+
+
+    .pay_circle {
+      width: 53px;
+      height: 53px;
+      border-radius: 100%;
+      border: 1px solid #e5e5e5;
+      text-align: center;
+      line-height: 53px;
+    }
+
+    .pay_add {
+      background: #f7b451;
+      border: 1px solid #f7b451;
+    }
+
+    .pay_num-num {
+      margin: 0 20px;
+      font-size: 30px;
+    }
+  }
+
+  .pay_shop-list {
+    padding: 0 20px;
+
+    .pay_shop-image {
+      width: 115px;
+      height: 115px;
+      margin-right: 16px;
+    }
+
+    .pay_shop-time {
+      color: #9f9f9f;
+      margin-top: 17px;
+    }
+
+    .pay_shop-price {
+      color: #878787;
+    }
+  }
+
+  .pay_submit {
+    padding: 0 20px;
+    margin-top: 26px;
+
+    .pay_btn {
+      height: 80px;
+      line-height: 80px;
+      text-align: center;
+      background: #f7b551;
+      border: none;
+      outline: none;
+      color: #fff;
+      border-radius: 10px;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+Image {
+  display: block;
+}
+
+.shop {
+  .shop_head {
+    border-bottom: 5px solid #ececec;
+    padding-bottom: 28px;
+  }
+
+  .close_time {
+    .close_time_image {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+  }
+
+  .shop_swiper {
+    white-space: nowrap;
+    margin-top: 27px;
+  }
+
+  .shop_swiper_image {
+    width: 210px;
+    height: 160px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    &:first-child {
+      margin-left: 20px;
+    }
+
+    &:last-child {
+      margin-right: 20px;
+    }
+  }
+
+  .shop_detail {
+    margin-top: 25px;
+
+    .shop_location {
+      width: 85%;
+      line-height: 40px;
+
+      .shop_location_distance {
+        margin-left: 14px;
+        border-left: 1px solid #999;
+        padding-left: 8px;
+        font-size: 24px;
+      }
+    }
+
+    .shop_location_image {
+      width: 22px;
+      height: 26px;
+      margin-right: 14px;
+    }
+
+    .shop_phone_image {
+      width: 30px;
+      height: 30px;
+      margin: 0 32px;
+    }
+  }
+
+  .set_meal {
+    .set_meal_head {
+      border-bottom: 1px solid #f0f0f0;
+      padding: 22px 0;
+    }
+
+    .set_meal_list {
+
+      .set_meal_item {
+        margin-top: 20px;
+
+        &:last-child {
+          border-bottom: 1px solid #ebebeb;
+          padding-bottom: 20px;
+        }
+
+        .set_meal_image {
+          width: 36px;
+          height: 36px;
+          margin-right: 26px;
+        }
+
+        .set_meal_item_num {
+          width: 100px;
+        }
+
+        .set_meal_item_price {
+          width: 100px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
